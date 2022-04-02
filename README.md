@@ -4,7 +4,7 @@
 - `/login` :  Para acessar os dados do login
 - `/db` :  Para acessar os dados do banco de dados
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=TESTE&color=YELLOW&style=for-the-badge)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=TESTE&color=yellow&style=for-the-badge)
 
 <h2> :construction: API em construção :construction: </h2>
 

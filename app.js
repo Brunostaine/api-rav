@@ -3,6 +3,12 @@ const app = express()
 
 const PORT = process.env.PORT || 8080;
 
+app.get('/', (req, res) => {
+    res.json({
+        Mensagem: 'O banco está funcionando'
+    })
+})
+
 app.get('/db', (req, res) => {
     res.json({
         p1: 'Qual é o nome do Aluno',

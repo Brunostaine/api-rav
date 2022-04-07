@@ -1,26 +1,34 @@
 const express = require('express')
-const app = express()
+const cors = require('cors');
+
+
 
 const PORT = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
     res.json({
-        Mensagem: 'O banco está funcionando'
+        Mensagem: 'Online',
+        msg: 'teste'
     })
 })
 
 app.get('/db', (req, res) => {
     res.json({
-        p1: 'Qual é o nome do Aluno',
-        p2: 'Idade do Aluno'
+        nomeAluno: 'Teste',
+        p1: 'O aluno consegue desenvolver as atividades?',
+        r1: 'sim',
+        p2: 'Idade do Aluno',
+        r2: '15'
     })
 })
 
 app.get('/login', (req, res) => {
     res.json({
+        id: '123',
         nome: 'Bruno',
         sobrenome: 'Staine',
         email: 'brunostaine@hotmail.com',
+        usuario: 'brunostaine',
         senha: '123'
     })
 })
